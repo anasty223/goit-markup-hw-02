@@ -1,12 +1,10 @@
 :root {
-  --primery-texte-color: #757575;
-  --second-color: #212121;
-  --accent-color: #2196f3;
+  --primery-texte-color: #757575; /*Основной цвет */
+  --second-color: #212121; /* Второй цвет  */
+  --accent-color: #2196f3; /*Акцентный цвет */
   --whitw-color-texte: #ffffff;
-  --hero-footer-color: #2f303a;
-  /* цвет хедера и футера #2F303A */
-  /* белый цвет текста #FFFFFF */
-  /* вторичный фон #F5F4FA */
+  --hero-footer-color: #2f303a; /*Цвет в футере и блоке герой */
+  --secondery-backgraund: #f5f4fa; /*цвет фона в блоке наша команда*/
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -20,7 +18,7 @@ body {
 }
 
 /*logo*/
-.logo {
+.logo-nav {
   color: var(--accent-color);
   font-family: raleway;
   text-decoration: none;
@@ -85,4 +83,69 @@ body {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  font: inherit;
+}
+/* Особенности */
+.title {
+  color: var(--second-color);
+  font-family: Roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  line-height: 16px;
+}
+.texte-title {
+  color: var(--primery-texte-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+/* Секция наша команда */
+
+li.team-link {
+  color: var(--second-color);
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  background: var(--secondery-backgraund);
+}
+.team-position {
+  color: var(--primery-texte-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+/* Футер */
+.section-footer {
+  background: var(--hero-footer-color);
+}
+.logo-footer {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logofooter {
+  color: var(--whitw-color-texte);
+}
+.adress-box {
+  color: var(--whitw-color-texte);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.contact-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
 }
