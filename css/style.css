@@ -1,8 +1,50 @@
-body {
-  background: white;
+:root {
+  --primery-texte-color: #757575;
+  --second-color: #212121;
+  --accent-color: #2196f3;
+  --whitw-color-texte: #ffffff;
+  /* цвет хедера и футера #2F303A */
+  /* белый цвет текста #FFFFFF */
+  /* вторичный фон #F5F4FA */
 }
-/* цвет акцент #2196F3 */
-/*цвет жирный черный #212121 */
-/* основной цвет текста #757575 */
-/* цвет хедера и футера #2F303A */
-/* белый цвет текста #FFFFFF */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+/*logo*/
+.logo {
+  color: var(--accent-color);
+  font-family: raleway;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  font-size: 26pxs;
+}
+.logoheder {
+  color: var(--second-color);
+}
+
+/*секция навигация*/
+.link {
+  color: var(--second-color);
+}
+.link:hover,
+:focus,
+:active {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primery-texte-color);
+}
+.contact:hover,
+:focus {
+  color: var(--accent-color);
+}
