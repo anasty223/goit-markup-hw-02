@@ -3,6 +3,7 @@
   --second-color: #212121;
   --accent-color: #2196f3;
   --whitw-color-texte: #ffffff;
+  --hero-footer-color: #2f303a;
   /* цвет хедера и футера #2F303A */
   /* белый цвет текста #FFFFFF */
   /* вторичный фон #F5F4FA */
@@ -34,17 +35,54 @@ body {
 /*секция навигация*/
 .link {
   color: var(--second-color);
+  font-weight: 500px;
+  size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link:hover,
-:focus,
-:active {
+.nav-link .list {
+  color: var(--second-color);
+}
+.nav-link .link:hover,
+:focus {
   color: var(--accent-color);
 }
-
+.nav-link .link.current {
+  color: var(--accent-color);
+}
 .contact {
   color: var(--primery-texte-color);
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contact:hover,
 :focus {
   color: var(--accent-color);
+}
+/* Секция герой */
+
+.section-hero {
+  background: var(--hero-footer-color);
+  width: 1600px;
+  height: 600px;
+}
+.title-hero {
+  color: var(--whitw-color-texte);
+  size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+}
+.button-primery {
+  background: var(--accent-color);
+  color: var(--whitw-color-texte);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
 }
