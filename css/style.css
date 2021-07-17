@@ -10,7 +10,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   background: white;
-  color: #212121;
+  font-size: 14px;
+  color: var(--primery-texte-color);
+  letter-spacing: 0.03em;
+  font-weight: 500px;
 }
 
 .list {
@@ -22,9 +25,8 @@ body {
   color: var(--accent-color);
   font-family: raleway;
   text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 0.03em;
-  font-size: 26pxs;
+  font-weight: 700;
+  font-size: 26px;
 }
 .logoheder {
   color: var(--second-color);
@@ -33,9 +35,7 @@ body {
 /*секция навигация*/
 .link {
   color: var(--second-color);
-  font-weight: 500px;
-  size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -52,9 +52,7 @@ body {
 .contact {
   color: var(--primery-texte-color);
   text-decoration: none;
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .contact:hover,
@@ -67,72 +65,89 @@ body {
   background: var(--hero-footer-color);
   width: 1600px;
   height: 600px;
+  
 }
 .title-hero {
   color: var(--whitw-color-texte);
-  size: 44px;
-  line-height: 60px;
-  letter-spacing: 6%;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
   text-align: center;
+  
 }
-.button-primery {
+button{
   background: var(--accent-color);
-  color: var(--whitw-color-texte);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  text-decoration: none;
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
   font: inherit;
 }
+.button-primery {
+  text-decoration: none;
+  color: var(--whitw-color-texte);
+  text-align: center;
+ }
+ .button-primary:hover,
+ .button-primary:focus{
+   color: #188CE8;
+   text-decoration: none;
+   
+  
+ }
 /* Особенности */
+.section-qualities{
+  
+}
+.title-list{
+  font-size: 14px;
+}
 .title {
   color: var(--second-color);
-  font-family: Roboto;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-weight: bold;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 1.14;
+  
+
 }
-.texte-title {
+.text-title {
   color: var(--primery-texte-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1;
 }
 /* Чем мы занимаемся */
 .section-title {
   color: var(--second-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
 }
 /* Секция наша команда */
-
-li.team-link {
-  color: var(--second-color);
-  font-weight: 500px;
-  font-size: 16px;
-  line-height: 19px;
-  font-family: Roboto;
-  font-style: normal;
+.section-team{
   background: var(--secondery-backgraund);
+  
 }
+.team-name{
+  font-size: 16px;
+  color: var(--second-color);
+  line-height: 1.8;
+  font-weight: 500;
+
+  }
 .team-position {
   color: var(--primery-texte-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 16px;
 }
 /* Футер */
 .section-footer {
   background: var(--hero-footer-color);
+  
 }
 .logo-footer {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: Raleway;
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
 }
 .logofooter {
   color: var(--whitw-color-texte);
@@ -140,12 +155,15 @@ li.team-link {
 .adress-box {
   color: var(--whitw-color-texte);
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-}
+  font-weight: 400;
+  line-height: 1.7;
+  }
 .contact-footer {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(129, 129, 129, 0.6);
 }
+.contact-footer:hover,
+:focus {
+  color: var(--accent-color);
