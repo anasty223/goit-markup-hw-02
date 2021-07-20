@@ -38,6 +38,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-weight: 500;
 }
 .nav-link .list {
   color: var(--second-color);
@@ -56,6 +57,7 @@ body {
   text-decoration: none;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .contact:hover,
 :focus {
@@ -65,8 +67,6 @@ body {
 
 .section-hero {
   background: var(--hero-footer-color);
-  width: 1600px;
-  height: 600px;
 }
 .title-hero {
   color: var(--whitw-color-texte);
@@ -74,6 +74,8 @@ body {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .hero-button {
   text-decoration: none;
@@ -96,6 +98,7 @@ body {
 
 .title-list {
   font-size: 14px;
+  text-transform: uppercase;
 }
 .title {
   color: var(--second-color);
@@ -154,9 +157,10 @@ body {
 }
 .contact-footer {
   font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   line-height: 1.7;
-  color: rgba(129, 129, 129, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact-footer:hover,
 .contact-footer:focus {
